@@ -64,5 +64,27 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DaData is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://dadata.ru/
+DaData provides a suite of APIs for data validation, standardization, and enrichment, primarily targeting Russian business data. Its services include address standardization, company information lookup by INN/KPP/OGRN, phone and email validation, bank data retrieval, and document extraction. The platform offers both free and paid tiers, supporting developers in building reliable data pipelines for CRM, e‑commerce, and analytics applications. By leveraging DaData, businesses can reduce errors, improve data quality, and accelerate onboarding processes.
+
+**Areas:** Data · API · Russian · DataEnrichment · AddressStandardization
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dadata.ru/)
+- [Documentation](https://dadata.ru/api/)
+- [Getting started](https://dadata.ru/api/)
+- [API reference](https://dadata.ru/api/)
+- [Pricing](https://dadata.ru/pricing/)
+- [Support](https://dadata.ru/support/)
+- [Blog](https://dadata.ru/blog/)
+- [Terms of service](https://dadata.ru/offer/)
+- [Privacy policy](https://dadata.ru/privacy/)
+- [Status](https://status.dadata.ru/)
+
+**APIs profiled:** 4
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/dadata/](https://apis.io/providers/dadata/).
