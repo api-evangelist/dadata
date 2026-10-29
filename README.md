@@ -68,6 +68,75 @@ DaData provides a suite of APIs for data validation, standardization, and enrich
 
 **Areas:** Data · API · Russian · DataEnrichment · AddressStandardization
 
+## DaData on APIs.io
+
+Everything profiled for DaData is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dadata/](https://apis.io/providers/dadata/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [DaData API](https://apis.io/apis/dadata/dadata-api/) — Поиск адреса от региона до дома или по индексу. Поиск компаний по ИНН, адресу и руководителю. Подбор банков, ФИО и email.
+- [DaData API-методы API](https://apis.io/apis/dadata/clean-api/) — DaData API-методы API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own…
+- [DaData core API](https://apis.io/apis/dadata/core-api/) — DaData core API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own…
+- [DaData API-методы API](https://apis.io/apis/dadata/suggest-api/) — DaData API-методы API as documented publicly: 35 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [PostSuggestionsApi41RsFindaffiliatedPartyRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findaffiliated-party-request/)
+- [PostSuggestionsApi41RsFindbyemailCompanyRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyemail-company-request/)
+- [PostSuggestionsApi41RsFindbyidAddressRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-address-request/)
+- [PostSuggestionsApi41RsFindbyidCarBrandRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-car-brand-request/)
+- [PostSuggestionsApi41RsFindbyidCountryRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-country-request/)
+- [PostSuggestionsApi41RsFindbyidCourtRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-court-request/)
+- [PostSuggestionsApi41RsFindbyidCurrencyRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-currency-request/)
+- [PostSuggestionsApi41RsFindbyidFnsUnitRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-findbyid-fns-unit-request/)
+- [PostSuggestionsApi41RsGeolocateAddressRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-geolocate-address-request/)
+- [PostSuggestionsApi41RsGeolocatePostalUnitRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-geolocate-postal-unit-request/)
+- [PostSuggestionsApi41RsIplocateAddressRequest](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-iplocate-address-request/)
+- [PostSuggestionsApi41RsIplocateAddressResponse](https://apis.io/schemas/dadata/dadata-post-suggestions-api41-rs-iplocate-address-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dadata Context](https://apis.io/jsonld/dadata/dadata-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DaData API Rules](https://apis.io/rules/dadata/dadata-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dadata Authentication](https://apis.io/security/dadata/dadata-authentication/)
+- [Dadata Domain Security](https://apis.io/security/dadata/dadata-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Dadata Scopes](https://apis.io/scopes/dadata/dadata-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dadata Plans Pricing](https://apis.io/plans/dadata/dadata-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dadata Rate Limits](https://apis.io/rate-limits/dadata/dadata-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -83,8 +152,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Privacy policy](https://dadata.ru/privacy/)
 - [Status](https://status.dadata.ru/)
 
-**APIs profiled:** 4
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/dadata/](https://apis.io/providers/dadata/).
+**Kin Score 51.0** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 52.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 25.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dadata/](https://apis.io/providers/dadata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DaData: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dadata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
